@@ -11,7 +11,7 @@ const validarCliente = (horario) => {
   let horaApertura = 0;
   let horaFreeMax = 2; 
   let horaCierre = 7;   
-  let edad = parseInt(prompt("¿Cual es tu edad?"));
+  let edad = parseInt(prompt("¿Cual es tu edad?")); 
  
    if (edad >= edadBase) { 
       if (horario <= horaFreeMax && horario >= horaApertura && free === false) {
